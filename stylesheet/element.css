@@ -10,7 +10,7 @@
 .welcome-box{
     display: flex;
     align-items: center;
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     font-weight: 700;
     border-radius: 11px;
     max-height: 3rem;
@@ -24,4 +24,42 @@
 
 .welcome-box p span{
     color: #F9BE00;
+}
+
+.personal-info{
+    margin-top: 2vh;
+    display: grid;
+    grid-template-columns: 1fr 1.3fr;
+}
+
+.user-image{
+    position: relative;
+}
+
+#user-profile{
+    margin-left: 1vw;
+    width: 90%;
+    border-radius: 100%;
+    z-index: 1;
+}
+
+#circle-bg{
+    position: absolute;
+    left: -1vw;
+    top: 2vw;
+    width: 90%;
+    background-color: #00BCB4;
+    border-radius: 100%;
+    z-index: -1;
+}
+
+.user-detail h1{
+    font-size: 1.3rem;
+    margin-bottom: 0;
+}
+
+.user-detail p{
+    line-height: 1.3rem;
+    font-size: 1rem;
+    margin: 0;
 }
