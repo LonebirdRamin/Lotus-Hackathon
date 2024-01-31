@@ -7,6 +7,10 @@
     font-weight: 550;
 }
 
+#back-icon{
+    width: 0.7rem;
+}
+
 .welcome-box{
     display: flex;
     align-items: center;
@@ -38,7 +42,7 @@
 
 #user-profile{
     margin-left: 1vw;
-    width: 90%;
+    width: 35vw;
     border-radius: 100%;
     z-index: 1;
 }
@@ -47,7 +51,8 @@
     position: absolute;
     left: -1vw;
     top: 2vw;
-    width: 90%;
+    width: 35vw;
+    height: 35vw;
     background-color: #00BCB4;
     border-radius: 100%;
     z-index: -1;
@@ -62,4 +67,54 @@
     line-height: 1.3rem;
     font-size: 1rem;
     margin: 0;
+}
+
+.basket{
+    border-radius: 10px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+#basket-head{
+    margin-top: 3vh;
+    display: flex;
+    align-items: center;
+    background-color: #00BCB4;
+    height: 2.5rem;
+    border-radius: 10px 10px 0 0;
+}
+
+#basket-head h1{
+    color: #ffffff;
+    font-size: 1.4rem;
+    font-weight: 500;
+    padding-left: 5%;
+}
+
+.basket-content{
+    height: 20vh;
+    border-radius: 0 0 10px 10px;
+}
+
+.func-button{
+    margin-top: 1rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 5vw;
+}
+
+.func-button a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    background-color: #F9BE00;
+    height: 3rem;
+    font-size: 1rem;
+    font-weight: 550;
+    border-radius: 15px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.func-button a:active{
+    background-color: #D2A100;
 }
