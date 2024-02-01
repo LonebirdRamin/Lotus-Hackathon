@@ -2,6 +2,14 @@
     display: flex;
 }
 
+.back-button a{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #00BCB4;
+
+}
+
 .back-button p{
     padding-left: 7px;
     font-weight: 550;
@@ -91,7 +99,7 @@
 }
 
 .basket-content{
-    height: 20vh;
+    height: 10rem;
     border-radius: 0 0 10px 10px;
 }
 
@@ -102,7 +110,7 @@
     grid-gap: 5vw;
 }
 
-.func-button a{
+.func-button button, .func-button div{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -112,9 +120,45 @@
     font-size: 1rem;
     font-weight: 550;
     border-radius: 15px;
+    border: none;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-.func-button a:active{
+.func-button a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.func-button button:active, .func-button div:active{
     background-color: #D2A100;
+}
+
+#func-icon{
+    width: 1.5rem;
+    margin-right: 0.5rem;
+}
+
+.camera-container {
+    position: relative;
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+#camera-feed {
+    width: 100%;
+    border-radius: 10px;
+}
+
+#capture-btn {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 10px 20px;
+    background-color: #3897f0;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
 }
