@@ -6,6 +6,8 @@ const captureBtn = document.getElementById('capture-btn');
 navigator.mediaDevices.getUserMedia({ video: true })
     .then((stream) => {
         video.srcObject = stream;
+        document.body.appendChild(video);
+        video.play();
     })
     .catch((error) => {
         console.error('Error accessing the camera: ', error);
@@ -17,8 +19,6 @@ function capturePhoto() {
     canvas.width = video.videoWidth;
     canvas.height = video.videoHeight;
     context.drawImage(video, 0, 0, canvas.width, canvas.height);
-    // Optionally, you can apply filters or effects here
-    // For simplicity, we're not applying any filter in this example
     canvas.style.display = 'block';
     video.style.display = 'none';
 }
