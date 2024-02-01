@@ -39,7 +39,7 @@
 }
 
 .personal-info{
-    margin-top: 2vh;
+    margin-top: 2dvh;
     display: grid;
     grid-template-columns: 1fr 1.3fr;
 }
@@ -83,7 +83,7 @@
 }
 
 #basket-head{
-    margin-top: 3vh;
+    margin-top: 3dvh;
     display: flex;
     align-items: center;
     background-color: #00BCB4;
@@ -136,29 +136,4 @@
 #func-icon{
     width: 1.5rem;
     margin-right: 0.5rem;
-}
-
-.camera-container {
-    position: relative;
-    width: 100%;
-    max-width: 500px;
-    margin: 0 auto;
-}
-
-#camera-feed {
-    width: 100%;
-    border-radius: 10px;
-}
-
-#capture-btn {
-    position: absolute;
-    bottom: 20px;
-    left: 50%;
-    transform: translateX(-50%);
-    padding: 10px 20px;
-    background-color: #3897f0;
-    color: white;
-    border: none;
-    border-radius: 20px;
-    cursor: pointer;
 }
