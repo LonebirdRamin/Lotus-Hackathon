@@ -99,8 +99,31 @@
 }
 
 .basket-content{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-gap: 1rem;
     height: 10rem;
+    margin-inline: 1rem;
+    overflow-x: scroll;
     border-radius: 0 0 10px 10px;
+}
+
+.checked-ingredient{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 10rem;
+}
+
+.checked-ingredient p{
+    margin: 0;
+    text-align: center;
+}
+
+#ingredient-image{
+    height: 7rem;
+    object-fit: cover;
 }
 
 .func-button{
@@ -138,27 +161,3 @@
     margin-right: 0.5rem;
 }
 
-.camera-container {
-    position: relative;
-    width: 100%;
-    max-width: 500px;
-    margin: 0 auto;
-}
-
-#camera-feed {
-    width: 100%;
-    border-radius: 10px;
-}
-
-#capture-btn {
-    position: absolute;
-    bottom: 20px;
-    left: 50%;
-    transform: translateX(-50%);
-    padding: 10px 20px;
-    background-color: #3897f0;
-    color: white;
-    border: none;
-    border-radius: 20px;
-    cursor: pointer;
-}

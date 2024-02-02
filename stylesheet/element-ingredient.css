@@ -26,3 +26,16 @@
     height: 30vw;
     object-fit: contain;
 }
+
+.ingredient-info{
+    display: flex;
+}
+
+.checked {
+    background-color: lightgreen;
+}
+
+.invisible-checkbox {
+    position: absolute;
+    opacity: 0;
+}
