@@ -1,0 +1,44 @@
+.menu-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#menu-image{
+    width: 65vw;
+    height: 65vw;
+    object-fit: cover;
+    border-radius: 2rem;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
+}
+
+.menu-item h2{
+    display: flex;
+    padding-inline: 1rem;
+    border-radius: 0.3rem;
+    align-items: center;
+    width: 92%;
+    height: 2.5rem;
+    background-color: #00BCB4;
+    margin-top: 1rem;
+    margin-bottom: 0;
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #fff;
+}
+
+.nutrition-facts, .ingredients{
+    margin-top: 1rem;
+    width: 100%;
+    border: 1px solid hsl(0, 0%, 70%);
+    border-radius: 0.2rem;
+}
+
+ul{
+    list-style: none;
+    padding-inline: 1rem;
+    padding-block: 0.5rem;
+    margin: 0;
+    justify-content: space-around;
+}

@@ -34,6 +34,11 @@ function createRecipeItem(recipe) {
     div.appendChild(img);
     div.appendChild(p);
 
+    div.onclick = function() {
+        localStorage.setItem('recipeName', recipe.name);
+        window.location.href = "recipe.html";
+    }
+
     return div;
 }
 
