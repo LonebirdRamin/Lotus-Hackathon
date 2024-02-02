@@ -5,7 +5,8 @@ html{
     padding: 0;
     margin: 0;
     font-size: 4vw;
-    overflow: hidden;
+    overflow-x: hidden;
+    overflow-y: auto;
 }
 
 *{
@@ -13,6 +14,5 @@ html{
 }
 
 body{
-    margin-top: 4vh;
     margin-inline: 5vw;
 }
