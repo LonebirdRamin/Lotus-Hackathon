@@ -47,4 +47,9 @@
     </div>
 </body>
 <script src="./scripts/homepage.js"></script>
+<script>
+    grid = document.querySelector('.basket-content');
+    const basket = JSON.parse(localStorage.getItem('checkedIngredients'));
+    grid.style.gridTemplateColumns = `repeat(${basket.length}, 1fr)`;
+</script>
 </html>

@@ -100,7 +100,6 @@
 
 .basket-content{
     display: grid;
-    grid-template-columns: repeat(12, 1fr);
     grid-gap: 1rem;
     height: 10rem;
     margin-inline: 1rem;
