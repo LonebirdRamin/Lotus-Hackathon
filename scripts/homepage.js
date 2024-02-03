@@ -47,3 +47,7 @@ function naviagateToRecipePage(){
 function navigateToIngredientPage(){
     window.location.href = "ingredient.html";
 }
+
+function navigateToCameraPage(){
+    window.location.href = "camera.html";
+}
