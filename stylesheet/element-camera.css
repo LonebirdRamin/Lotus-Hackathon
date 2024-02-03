@@ -1,0 +1,36 @@
+#video{
+    width:  90vw;
+    height: 90vw;
+    object-fit: cover;
+    border-radius: 2rem;
+}
+
+.camera-box{
+    display: flex;
+    height: calc(100vh - 6rem);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#snap{
+    margin-top: 2rem;
+}
+
+#outer-circle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20vw;
+    height: 20vw;
+    background-color: #000000;
+    border-radius: 50%;
+}
+
+#inner-circle{
+    width: 15vw;
+    height: 15vw;
+    background-color: #000000;
+    border-radius: 50%;
+    border: 2px solid #ffffff;
+}
